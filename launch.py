@@ -1,4 +1,8 @@
 from modules import launch_utils
+import os
+os.environ['HTTP_PROXY'] = 'http://127.0.0.1:1080'
+os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:1080'
+
 
 args = launch_utils.args
 python = launch_utils.python
