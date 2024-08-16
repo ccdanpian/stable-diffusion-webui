@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-export http_proxy=http://127.0.0.1:1080
-export https_proxy=http://127.0.0.1:1080
 #################################################
 # Please do not make any changes to this file,  #
 # change the variables in webui-user.sh instead #
